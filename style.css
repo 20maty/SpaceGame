@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-image: linear-gradient( 99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8% );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+
+.game-wrapper {
+    position: relative;
+    width: 70rem;
+    height: 35rem;
+    margin: 0 auto;
+    padding-top: 10vh;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+
+#game {
+    position: absolute;
+    width: 70rem;
+    height: 35rem;
+    background-image: url("images/game-backgroud-1.png");
+    background-repeat: no-repeat; 
+    background-attachment: bottom;
+    background-size: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 3rem #fff;
+}
+
+.control-wrapper {
+    position: relative;
+    width: 60rem;
+    height: 15rem;
+    background-color: #343d52;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+#start-game-bg {
+    position: absolute;
+    width: 70rem;
+    height: 35rem;
+    background-color: black;
+    background-repeat: no-repeat; 
+    background-attachment: bottom;
+    background-size: cover;
+    opacity: 0.5; 
+    border-radius: 0.5rem;
+}
+
+#start-game {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    align-self: center;
+}
