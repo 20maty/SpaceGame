@@ -7,13 +7,19 @@ wip af, just to store my project files
 
 ### Base
 - Write html base for the game
-- Add canvas wrapper
-- Add different types of spaceships (maybe different features?)
+- add control images
+- add ship type select
+- add ability load status
+- add global best list on right
+- add start game sequence
 
 
 ### SpaceShip
-- Move
-- Boost
-- Shoot
-- Collect
-- Collide
+- up/down
+- boost
+- shoot
+- collide
+
+- rocks
+- aliens
+- other space ship
